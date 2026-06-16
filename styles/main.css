@@ -958,7 +958,7 @@ button[aria-label]::before {
   padding-left: 5rem;
   padding-bottom: 5rem;
   border-left: var(--border);
-  background: url("../../img/resources-preview/bg.png") 0 0/cover no-repeat;
+  background: url("../img/resources-preview/bg.png") 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -976,7 +976,7 @@ button[aria-label]::before {
     width: 100vw;
     margin-left: calc(var(--container-padding-x) * -1);
     padding: 6.25rem 2.5rem 2.5rem;
-    background-image: url("../../img/resources-preview/bg_tablet.png");
+    background-image: url("../img/resources-preview/bg_tablet.png");
     background-size: contain;
   }
 }
