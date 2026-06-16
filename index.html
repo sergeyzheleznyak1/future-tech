@@ -7,15 +7,15 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Future Tech | Home</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <script src="./scripts/main.js" type="module"></script>
+    <link rel="stylesheet" href="./styles/main.css?v=20260616" />
+    <script src="./scripts/main.js?v=20260616" type="module"></script>
 </head>
 
 <body>
     <header class="header" data-js-header>
         <div class="header__promo">
             <div class="header__promo-inner container">
-                <a class="header__promo-link" href="/">
+                <a class="header__promo-link" href="/" data-magnetic>
                     <span class="icon icon--yellow-arrow">Subscribe to our Newsletter For New & latest Blogs and
                         Resources</span>
                 </a>
@@ -43,7 +43,7 @@
                             </li>
                         </ul>
                     </nav>
-                    <a class="header__contact-us-link button button--accent" href="./contacts.html">
+                    <a class="header__contact-us-link button button--accent" data-magnetic href="./contacts.html">
                         Contact Us
                     </a>
                 </div>
@@ -142,7 +142,7 @@
         </section>
         <section class="section" aria-labelledby="features-title">
             <header class="section__header">
-                <div class="section__header-inner container">
+                <div class="section__header-inner container" data-reveal="default">
                     <div class="section__header-info">
                         <p class="section__subtitle tag">Unlock the Power of</p>
                         <h2 class="section__title" id="features-title">FutureTech Features</h2>
@@ -151,7 +151,7 @@
             </header>
             <div class="section__body">
                 <ul class="list">
-                    <li class="list__item">
+                    <li class="list__item" data-reveal="default">
                         <div class="card container">
                             <div class="card__preview">
                                 <div class="card__preview-main">
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list__item">
+                    <li class="list__item" data-reveal="default">
                         <div class="card container">
                             <div class="card__preview">
                                 <div class="card__preview-main">
@@ -236,12 +236,12 @@
         </section>
         <section class="section" aria-labelledby="blog-title">
             <header class="section__header">
-                <div class="section__header-inner container">
+                <div class="section__header-inner container" data-reveal="default">
                     <div class="section__header-info">
                         <p class="section__subtitle tag">A Knowledge Treasure Trove</p>
                         <h2 class="section__title" id="blog-title">Explore FutureTech's In-Depth Blog Posts</h2>
                     </div>
-                    <a href="/" class="section__link button">
+                    <a href="/" class="section__link button" data-magnetic>
                         <span class="icon icon--yellow-arrow">View All Blogs</span>
                     </a>
                 </div>
@@ -282,7 +282,7 @@
                     <div class="tabs__content is-active" id="tabpanel-1" aria-labelledby="tab-1" tabindex="0"
                         data-js-tabs-content>
                         <ul class="list">
-                            <li class="list__item">
+                            <li class="list__item" data-reveal="compact">
                                 <article class="blog-card container">
                                     <div class="blog-card__author person-card">
                                         <img class="person-card__image" src="./img/blog/1.png" alt="" width="80"
@@ -305,7 +305,7 @@
                                             <ul class="blog-actions__list">
                                                 <li class="blog-actions__item">
                                                     <button class="blog-actions__button is-active" type="button"
-                                                        aria-label="Dislike" title="Dislike">
+                                                        aria-label="Like" title="Like" >
                                                         <span class="blog-actions__icon-wrapper">
                                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -351,12 +351,12 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <a class="blog-card__link button" href="/">
+                                    <a class="blog-card__link button" href="/" data-magnetic>
                                         <span class="icon icon--yellow-arrow">View Blog</span>
                                     </a>
                                 </article>
                             </li>
-                            <li class="list__item">
+                            <li class="list__item" data-reveal="compact">
                                 <article class="blog-card container">
                                     <div class="blog-card__author person-card">
                                         <img class="person-card__image" src="./img/blog/2.png" alt="" width="80"
@@ -409,7 +409,7 @@
                                                 </li>
                                                 <li class="blog-actions__item">
                                                     <button class="blog-actions__button" type="button"
-                                                        aria-label="Share" title="Share">
+                                                        aria-label="Share" title="Share" >
                                                         <span class="blog-actions__icon-wrapper">
                                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -425,12 +425,12 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <a class="blog-card__link button" href="/">
+                                    <a class="blog-card__link button" href="/" data-magnetic>
                                         <span class="icon icon--yellow-arrow">View Blog</span>
                                     </a>
                                 </article>
                             </li>
-                            <li class="list__item">
+                            <li class="list__item" data-reveal="compact">
                                 <article class="blog-card container">
                                     <div class="blog-card__author person-card">
                                         <img class="person-card__image" src="./img/blog/3.png" alt="" width="80"
@@ -499,7 +499,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <a class="blog-card__link button" href="/">
+                                    <a class="blog-card__link button" href="/" data-magnetic>
                                         <span class="icon icon--yellow-arrow">View Blog</span>
                                     </a>
                                 </article>
@@ -531,20 +531,20 @@
         </section>
         <section class="section" aria-labelledby="resources-title">
             <header class="section__header">
-                <div class="section__header-inner container">
+                <div class="section__header-inner container" data-reveal="default">
                     <div class="section__header-info">
                         <p class="section__subtitle tag">Your Gateway to In-Depth Information</p>
                         <h2 class="section__title" id="resources-title">Unlock Valuable Knowledge with FutureTech's
                             Resources</h2>
                     </div>
-                    <a href="/" class="section__link button">
+                    <a href="/" class="section__link button" data-magnetic>
                         <span class="icon icon--yellow-arrow">View All Resources</span>
                     </a>
                 </div>
             </header>
             <div class="section__body">
                 <ul class="list">
-                    <li class="list__item">
+                    <li class="list__item" data-reveal="compact">
                         <div class="card container">
                             <div class="card__preview">
                                 <div class="card__preview-main">
@@ -615,7 +615,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list__item">
+                    <li class="list__item" data-reveal="compact">
                         <div class="card container">
                             <div class="card__preview">
                                 <div class="card__preview-main">
@@ -692,13 +692,13 @@
         </section>
         <section class="section" aria-labelledby="reviews-title">
             <header class="section__header">
-                <div class="section__header-inner container">
+                <div class="section__header-inner container" data-reveal="default">
                     <div class="section__header-info">
                         <p class="section__subtitle tag">What Our Readers Say</p>
                         <h2 class="section__title" id="reviews-title">Real Words from Real Readers</h2>
                     </div>
                     <div class="section__actions">
-                        <a class="section__link button" href="/">
+                        <a class="section__link button" href="/" data-magnetic>
                             <span class="icon icon--yellow-arrow">View All Testimonials</span>
                         </a>
                     </div>
@@ -706,7 +706,7 @@
             </header>
             <div class="section__body">
                 <ul class="bordered-grid bordered-grid--3-cols container">
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -733,7 +733,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -760,7 +760,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -787,7 +787,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -814,7 +814,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -841,7 +841,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="bordered-grid__item">
+                    <li class="bordered-grid__item" data-reveal="compact">
                         <div class="review-card">
                             <div class="review-card__author person-card">
                                 <img class="person-card__image" src="./img/blog/3.png" alt="" width="60" height="60"
@@ -873,7 +873,7 @@
         </section>
         <section class="about" aria-labelledby="about-title">
             <div class="about__inner container">
-                <header class="about__header">
+                <header class="about__header" data-reveal="default">
                     <img class="about__icon" src="./img/about/icon.svg" alt="" width="150" height="150"
                         loading="lazy" />
                     <div class="about__info">
@@ -887,7 +887,7 @@
                     </div>
                 </header>
                 <ul class="about__list">
-                    <li class="about__item">
+                    <li class="about__item" data-reveal="compact">
                         <a class="about-card tile" href="/">
                             <h3 class="about-card__title circle-icon">Resource Access</h3>
                             <div class="about-card__description">
@@ -896,7 +896,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="about__item">
+                    <li class="about__item" data-reveal="compact">
                         <a class="about-card tile" href="/">
                             <h3 class="about-card__title circle-icon">Resource Access</h3>
                             <div class="about-card__description">
@@ -905,7 +905,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="about__item">
+                    <li class="about__item" data-reveal="compact">
                         <a class="about-card tile" href="/">
                             <h3 class="about-card__title circle-icon">Resource Access</h3>
                             <div class="about-card__description">

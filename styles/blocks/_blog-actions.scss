@@ -22,6 +22,12 @@
         border: var(--border);
         border-radius: rem(100);
 
+        @include hover {
+            svg * {
+                stroke: var(--color-accent);
+            }
+        }
+
         &.is-active {
             svg * {
                 fill: var(--color-red);

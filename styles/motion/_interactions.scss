@@ -1,0 +1,18 @@
+@use '../helpers' as *;
+
+.about-card,
+.blog-actions__button {
+    transition-property: border-color, box-shadow;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .about-card,
+    .blog-actions__button {
+        @include hover {
+            border-color: var(--color-dark-20);
+            box-shadow: var(--shadow);
+        }
+    }
+}
