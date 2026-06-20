@@ -2,7 +2,7 @@
 
 FutureTech is a responsive multi-page frontend project for a technology and AI media platform. The project focuses on clean architecture, reusable UI components, accessibility, and modern frontend development practices using HTML, SCSS, and vanilla JavaScript.
 
-The repository currently contains the implementation of the home page and a scalable foundation for extending the website with additional pages.
+The repository currently includes the Home and News pages, with a scalable foundation for adding more sections of the platform.
 
 ## Stack
 
@@ -23,10 +23,10 @@ The repository currently contains the implementation of the home page and a scal
 - Sticky header with scroll-based shadow animation
 - Mobile navigation with burger menu
 - Accessible tabs with keyboard navigation
+- Custom video player with native playback controls
 - Scroll reveal animations powered by `IntersectionObserver`
 - Magnetic hover interaction for selected desktop elements
-- Hero entrance animation
-- Reusable UI components (cards, tiles, review blocks, blog blocks, section headers)
+- Reusable UI components (cards, tiles, review blocks, blog blocks, section, etc)
 - Reduced motion support via `prefers-reduced-motion`
 - Modular SCSS architecture with custom functions and mixins
 - Component-based JavaScript architecture using ES modules and classes
@@ -36,6 +36,7 @@ The repository currently contains the implementation of the home page and a scal
 ```text
 future-tech/
 ├── index.html
+├── news.html
 ├── package.json
 ├── scripts/
 │   ├── BaseComponent.js
@@ -43,6 +44,7 @@ future-tech/
 │   ├── MagneticButton.js
 │   ├── Reveal.js
 │   ├── Tabs.js
+│   ├── VideoPlayer.js
 │   ├── main.js
 │   └── utils/
 │       └── defineScrollBarWidthCSSVar.js
@@ -58,6 +60,8 @@ future-tech/
 │   └── motion/
 ├── img/
 ├── icons/
+├── videos/
+│   └── example.mp4
 └── fonts/
 ```
 
@@ -69,6 +73,7 @@ The project is organized into small, focused ES modules instead of relying on a 
 - **Tabs.js** — provides an accessible tabs component with keyboard navigation.
 - **Reveal.js** — animates sections and elements on scroll using `IntersectionObserver`.
 - **MagneticButton.js** — adds a magnetic hover effect to selected desktop buttons and links.
+- **VideoPlayer.js** — manages custom video preview panels and switches to native playback controls when a video starts.
 - **defineScrollBarWidthCSSVar.js** — calculates the browser scrollbar width and exposes it as a CSS variable for layout calculations.
 
 `main.js` serves as the application's entry point and initializes all interactive modules.
