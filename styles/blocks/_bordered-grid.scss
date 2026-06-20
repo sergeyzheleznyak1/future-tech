@@ -45,8 +45,8 @@
             .bordered-grid__item {
 
                 /**
-          Элементы в 1-й и 2-й колонке
-         */
+                    Элементы в 1-й и 2-й колонке
+                */
                 &:nth-child(3n - 2),
                 &:nth-child(3n - 1) {
                     position: relative;
@@ -63,8 +63,8 @@
                 }
 
                 /**
-          Элементы во 2-й колонке
-         */
+                    Элементы во 2-й колонке
+                */
                 &:nth-child(3n - 1) {
                     @include full-vw-centered-line(bottom);
                 }

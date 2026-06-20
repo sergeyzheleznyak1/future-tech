@@ -42,6 +42,14 @@
 @use 'blocks/about';
 @use 'blocks/about-card';
 
+@use 'blocks/hero-alt';
+@use 'blocks/summary';
+@use 'blocks/news';
+@use 'blocks/news-card';
+
+@use 'blocks/video-card';
+@use 'blocks/video-player';
+
 @use 'blocks/footer';
 
 @use 'motion/reveal';

@@ -20,7 +20,7 @@ class MagneticButton {
     this.bindMediaEvents()
   }
 
-  updateAvailability() {
+  updateAvailability = () => {
     const shouldEnable =
       !this.prefersReducedMotionQuery.matches && this.finePointerQuery.matches
 
